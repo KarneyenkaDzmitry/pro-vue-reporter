@@ -1,0 +1,34 @@
+{
+    "title": "TITLE",
+    "description": "Description",
+    "statistic": {
+        "passed": 21,
+        "failed": 2,
+        "skipped": 1
+    },
+    "features": [
+        {
+            "name": "Feature name",
+            "tags": [],
+            "time": "25 seconds",
+            "status": "passed",
+            "scenarious": [
+                {
+                    "name": "Scenario name",
+                    "tags": [],
+                    "time": "25 seconds",
+                    "status": "passed",
+                    "steps": [
+                        {
+                            "name": "Step name",
+                            "time": "25 seconds",
+                            "status": "failed",
+                            "error": "Some Error",
+                            "screenshort": "path to screenshort"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

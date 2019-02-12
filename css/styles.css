@@ -1,0 +1,150 @@
+@media (min-width: 768px) {
+    .pull-right-lg {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pull-right-lg {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pull-right-lg {
+        float: right;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pull-right-lg {
+        float: right;
+    }
+}
+
+.metadata {
+    overflow: auto;
+    letter-spacing: 0.2px;
+    border-color: white;
+    line-height: 1.6;
+    color: #4d4d4d;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.panel-heading {
+    padding: 0;
+    border: 1px solid black;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    position : center;
+}
+
+.panel-heading a {
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.body-results-wrapper {
+    padding-top: 80px;
+    padding-bottom: 20px
+}
+
+.panel-heading .label-container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.panel-group {
+    margin: 0;
+    padding: 0;
+}
+
+.panel-group.feature{
+    margin: 0px 50px auto; 
+}
+
+.screenshot {
+    text-align: right;
+}
+
+.duration {
+    text-align: right;
+    color: rgb(104, 102, 102);
+}
+
+.footer-div {
+    text-align: right;
+    vertical-align: middle;
+    height: 3.5%;
+    width: 100%;
+}
+
+.footer-link {
+    font-size: 13px;
+    float: right;
+    color:slategrey
+}
+
+.footer-link:hover {
+    color: rgb(53, 189, 243);
+}
+
+a{
+    color:rgb(83, 82, 82);
+}
+
+a:hover{
+    color:steelblue;
+}
+
+.scenario {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    color:rgb(83, 82, 82);
+}
+
+.step {
+    padding-left: 25px;
+    margin-bottom: 0px;
+    color: rgb(83, 82, 82);
+}
+
+.label-success {
+    background-color:rgb(194, 247, 194)
+}
+
+.label-danger {
+    background-color:rgb(255, 157, 157)
+}
+
+.label-skipped {
+    background-color: rgb(248, 247, 160)
+}
+
+body {
+    background-color: rgb(243, 240, 233)
+}
+
+.date {
+    text-align: left;
+    color: rgb(158, 150, 150);
+    margin-left: 10px;
+    margin-top: -5px
+}
+
+.label-failed {
+    background-color:rgb(252, 175, 175);
+}
+
+
+.row {
+    padding: 2px 2px 0px 0px
+}
